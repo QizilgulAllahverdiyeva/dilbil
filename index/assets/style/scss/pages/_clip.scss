@@ -1,0 +1,15 @@
+.clipsection {
+    display: flex;
+    padding:  75px 150px ;
+    justify-content: space-around;
+}
+
+
+@media (max-width:992px) {
+    
+    .clipsection {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}

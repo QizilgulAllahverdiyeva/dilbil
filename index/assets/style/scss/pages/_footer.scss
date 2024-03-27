@@ -1,0 +1,43 @@
+.footersection {
+    background-color: $sectioncolor;
+    img {
+        margin-top: 20px;
+    }
+    .footervector {
+        margin: auto;
+        width: 80%;
+        height: 1px;
+        background-color: gray;
+    }
+    .footerdiv {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        ul {
+            li {
+                list-style: none;
+                margin-bottom: 10px;
+                font-weight: 300;
+                font-size: 16px;
+            }
+        }
+    }
+    @include wrap ();
+}
+.copyright {
+    margin-top: 30px;
+    @include footer ();
+    @include wrap ();
+}
+.Terms {
+    @include footer ();
+}
+.footerdiv {
+    @include wrap ();
+}
+
+.footersection {
+    padding: 50px 100px;
+}

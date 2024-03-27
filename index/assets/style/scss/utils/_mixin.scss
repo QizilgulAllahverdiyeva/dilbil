@@ -1,0 +1,27 @@
+@mixin blackheader {
+    display: flex;
+    justify-content: flex-end ;
+    color: white;
+   }
+
+@mixin button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+@mixin greentick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin wrap {
+    flex-wrap: wrap;
+}
+
+@mixin footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}

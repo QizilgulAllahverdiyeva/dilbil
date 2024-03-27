@@ -1,0 +1,47 @@
+
+.Onlinelesson {
+background-color:$sectioncolor ;
+padding: 100px;
+padding-top: 120px;
+display: flex;
+gap: 20px;
+justify-content: space-between;
+}
+.privatelesson {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+.englishonline {
+    h1 {
+        font-size: 50px;
+        span {
+            margin-right: 5px;
+            color: #1E9AF1;
+        }
+    }
+}
+.dilbil {
+    width: 70%;
+    height: 100%;
+}
+
+.Guarantee {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px ;
+}
+@media (max-width:992px) {
+    .Onlinelesson {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .dilbil {
+        width: 60%;
+    height: 80%;
+    }
+}

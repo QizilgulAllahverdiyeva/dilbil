@@ -1,0 +1,104 @@
+.pricingsectionn {
+padding: 150px 200px;
+background-color: $sectioncolor;
+h1{
+    text-align: center;
+}
+}
+.greentickflex {
+    margin-top: 30px;
+    gap:20px;
+    @include greentick ();
+}
+.greenp {
+    gap: 10px; 
+    @include greentick ();
+}
+
+.greentick{
+width: 20px;
+height: 20px;
+}
+.perweek {
+    padding: 20px 10px;
+    margin-top: 100px;
+    height: 400px;
+    border-radius: 8px;
+    width: 250px;
+    background-color: white;
+    h1 {
+        text-align: left;
+        }
+
+    h2 {
+    text-align: left;
+    font-size: 40px;
+    color: blue;
+    margin-top: 10px;
+     }
+     p{
+        opacity: 0.6;
+     }
+     div {.vector {
+        width: 200px;
+        height: 1px;
+        background-color: gray;
+
+     }
+    }
+}
+.permonth {
+    margin: 20px 10px;
+    p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+}
+
+.threediv {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trylesson {
+    border: 1px solid rgb(48, 33, 255);
+    background: none;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #1E9AF1;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+     @include button ;
+    font-size: 16px
+}
+
+.trylesson:hover {
+    background-color: #0772be;
+}
+
+.perweekcenter {
+    margin-top: 50px;
+    height: 500px;
+    border: 2px;
+    border-color: rgba(255, 68, 0, 0.425);
+    border-style: solid;
+    align-items: center;
+    div {
+        button {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width:992px){
+   .greentickflex {
+    @include wrap ();
+   } 
+
+   .threediv {
+    @include wrap ();
+   }
+}

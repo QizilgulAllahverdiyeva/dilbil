@@ -1,0 +1,85 @@
+.learnfaster {
+    padding: 50px 150px;
+    background-color: $sectioncolor;
+}
+.tahir {
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+.learnfaster {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.learnimg {
+    width: 500px;
+    height: 600px;
+}
+.whitediv {
+    padding: 50px;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    .tahir {
+    margin-left: 170px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    }
+    p {
+        text-align: center;
+        font-size: 22px;
+        opacity: 0.8;
+    }
+    .Zara {
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+div {
+    p{
+        text-align: left;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+}
+    }
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+        opacity: 0.7;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .vector {
+        margin:20px 50px;
+        height: 1px;
+        width: 300px;
+        background-color: gray;
+
+    }
+}
+.speaking {
+    h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+        span {
+            color: green;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .learnfaster {
+        flex-wrap: wrap;
+    }
+    .whitediv {
+        width: 100%;
+        height: 100%;
+}
+}

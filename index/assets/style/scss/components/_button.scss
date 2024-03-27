@@ -1,0 +1,22 @@
+.dilbilbutton {
+ @extend %buttontag;
+     @include button ;
+}
+.dilbilbutton:hover {
+    background-color: #0772be;
+}
+.signup {
+@extend %signup;
+}
+.signup:hover {
+    background-color: rgb(48, 33, 255);
+    color: white;
+}
+.login {
+@extend %login;
+
+}
+.login:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+    color: white; 
+}
